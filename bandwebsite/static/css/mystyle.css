@@ -1,0 +1,217 @@
+/*
+mystyle.css
+
+#300032
+#06000a
+#c43235
+#e6e6e8
+*/
+
+
+
+body {
+	background-color:#300032 ;
+	
+}
+
+container {
+	width: 100%; 
+	margin-right: auto;
+	margin-left: auto; 
+	
+}
+section {
+	background-color:#06000a;
+
+}
+li {
+	color:#e6e6e8;
+}
+
+h1{
+	font-size:3em;
+}
+
+
+#bandname {
+	color:#e6e6e8;
+	text-transform: uppercase;
+	font:"century Schoolbook", Georgia, Times, serif;
+	text-align:center;
+	 
+	
+}
+
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: #c43235;
+}
+
+.hov{
+	cursor: pointer; 
+}
+
+
+.songlist{
+	color:#e6e6e8;
+
+}
+
+
+td {  
+	pointer-events: none;
+}
+
+
+
+h2 {
+	color:#c43235 ;
+	
+}
+
+p {
+	text-align: left;
+ 	color:#e6e6e8;
+ 	}
+form {
+	color:#e6e6e8;
+}
+
+header {
+	text-align: center;
+	background-color: #06000a;
+
+}	
+
+ul {
+	list-style-type:square
+}
+
+#bandpic{
+	 object-fit: cover;
+	 max-width:100%;
+     max-height:50%;
+
+}
+
+#audioplayer,
+#bandpic,
+#kevpic,
+#debpic,
+#joshpic,
+#eppic
+ {
+	
+	width: 100%;
+    height: auto;
+    color:#e6e6e8;
+}
+
+#nav1 {
+	background-color: #06000a;
+	width: 100%;
+}
+
+
+a:link, a:visited {
+    background-color: #06000a;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}  
+
+
+a:hover, a:active {
+    color:#c43235 ;     
+     
+
+}
+/* Desktops and laptops */
+@media only screen  and (min-width : 1224px) {
+	a:hover, a:active {
+      
+    font-size: 2em;  
+	}
+
+}
+/* mobile */
+@media only screen and (max-width: 480px) {
+	#logo {
+		max-width:60px !important;
+    	max-height:60px !important;
+    }
+    
+    h1 {
+	font-size:1.5em !important;
+	}
+
+} 
+
+#review {
+	text-align: left;
+
+}
+
+#video,
+#review,
+#news,
+#album,
+#bio,
+#kev,
+#deb,
+#josh {
+	
+	padding-top: 60px !important;
+    padding-right: 60px !important;
+    padding-bottom: 60px !important;
+    padding-left: 60px !important;
+	
+}
+
+#logo {
+	max-width:120px;
+    max-height:120px;
+    width: auto;
+    height: auto;
+
+}
+
+#gigtext,
+#contact,
+#previous,
+#upcoming  {
+	
+    border-radius: 5px;
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    
+
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#vidtitle {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 1rem;
+	background-color: #06000a;
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    color:#e6e6e8;
+}
+
+#submitbutton{
+	float: right;
+}
